@@ -1,0 +1,19 @@
+
+* { box-sizing: border-box; }
+
+html {
+  background: #0f172a;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+}
+
+a {
+  color: inherit;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}

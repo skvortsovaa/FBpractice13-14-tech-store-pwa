@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Store — офлайн</title>
+    <style>
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: linear-gradient(135deg, #0f172a, #111827);
+        font-family: Arial, sans-serif;
+        color: #f8fafc;
+      }
+      .card {
+        width: min(560px, calc(100vw - 32px));
+        padding: 28px;
+        border-radius: 24px;
+        background: rgba(15, 23, 42, 0.92);
+        border: 1px solid rgba(255,255,255,.12);
+        box-shadow: 0 20px 50px rgba(0,0,0,.3);
+      }
+      h1 { margin: 0 0 14px; font-size: 28px; }
+      p { margin: 0 0 10px; line-height: 1.55; color: #cbd5e1; }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <h1>Сейчас нет соединения</h1>
+      <p>Приложение открыто в офлайн-режиме благодаря Service Worker.</p>
+      <p>Статические файлы уже лежат в кэше, а когда сеть вернётся, данные снова будут загружаться автоматически.</p>
+    </div>
+  </body>
+</html>
